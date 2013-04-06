@@ -32,7 +32,7 @@ where options are:
 	-f,--compileFile <file>                 Compile the given file in codes/ directory
 	-rn,--registerNumber <registerNumber>   Number of registers for machine code (default is 8)
 example:
-> ant cli -Dcli="-f ../codes/fibonacci"
+> ant cli -Dcli="-f fibonacci"
 
 help:
 > ant cli -Dcli="-h"
